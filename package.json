@@ -1,0 +1,14 @@
+{
+  "name": "react-gallery-cypress",
+  "version": "1.0.0",
+  "description": "e2e with cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aryandhiariefwin",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.4.0"
+  }
+}
