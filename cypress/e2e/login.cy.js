@@ -1,6 +1,7 @@
 describe("Load Login Page", () => {
   it("Successfully load the page", () => {
-    cy.visit("http://localhost:3000");
+    // cy.visit("http://localhost:3000");
+    cy.visit("https://taufanfadhilah.github.io/react-gallery");
     cy.title("eq", "React Gallery");
     cy.contains("Hello Again");
   });
@@ -64,6 +65,6 @@ describe("Load Login Page", () => {
       expect(text).to.contains("welcome");
     });
 
-    cy.url().should("eq", "http://localhost:3000/dashboard");
+    cy.url().should("eq", "https://taufanfadhilah.github.io/react-gallery/dashboard");
   });
 })
